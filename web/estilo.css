@@ -1,0 +1,33 @@
+* {
+  font-family: sans-serif;
+}
+
+#cadastro {
+  margin-bottom: 20px;
+}
+
+#formulario {
+  background-color: aquamarine;
+  margin: auto;
+  display: block;
+  width: 500px;
+  padding: 0px 10px 10px 20px;
+  border-radius: 10px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#lista {
+  width: 300px;
+  margin: auto;
+  margin-top: 30px;
+  font-size: 24px;
+  justify-content: center;
+}
+
+li {
+  list-style-type: none;
+}

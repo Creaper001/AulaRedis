@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="estilo.css" />
+    <title>Cadastro de Fila</title>
+  </head>
+  <body>
+    <form id="formulario">
+      <h1>Cadastro de Usuarios</h1>
+      <div id="cadastro">
+        <label for="name">Preencha com seu nome: </label>
+        <input type="text" name="nome" id="name" required />
+      </div>
+
+      <div>
+        <button id="remove" type="button">Remover</button>
+        <button id="add" type="button">Cadastrar</button>
+      </div>
+    </form>
+
+    <ul id="lista"></ul>
+    <script src="app.js"></script>
+  </body>
+</html>
